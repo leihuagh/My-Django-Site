@@ -29,5 +29,7 @@
 
 - core
 - home
+- authentication
+- users
 - aboutme
 - portofolio
