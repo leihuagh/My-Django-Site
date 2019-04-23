@@ -1,0 +1,6 @@
+__pycache__
+local_settings.py
+assets
+textures/users.json
+.vscode
+docs
