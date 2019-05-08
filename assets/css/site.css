@@ -2521,7 +2521,7 @@ body {
 }
 
 .header {
-  font-size: 0.8rem;
+  font-size: rem(10px);
 }
 
 .header .logo {
@@ -2529,7 +2529,7 @@ body {
 }
 
 .header a {
-  color: red;
+  color: #f44336;
   text-decoration: none;
 }
 
