@@ -12,7 +12,7 @@
 
 ## Packages in Virtual Environment
 
-- Django 2.2
+- Django 2.2.1
 - pillow
 - Faker
 - factory-boy
