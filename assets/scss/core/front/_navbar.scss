@@ -11,3 +11,7 @@
         }
     }
 }
+
+.navbar {
+    @include box-shadow(2);
+}
