@@ -1,0 +1,17 @@
+.header {
+    font-size: rem(10px);
+    .logo {
+        font-size: 1.8rem;
+    }
+    a {
+        color: material-color("red", "500");
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.navbar {
+    @include box-shadow(2);
+}
