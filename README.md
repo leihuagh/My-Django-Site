@@ -33,3 +33,4 @@
 - users
 - aboutme
 - portofolio
+- dashboard

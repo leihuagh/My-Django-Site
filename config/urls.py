@@ -10,6 +10,7 @@ urlpatterns = [
     path('', include('core.urls')),
     path('aboutme/', include('aboutme.urls')),
     path('users/', include('users.urls')),
+    path('dashboard/', include('dashboard.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

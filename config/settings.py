@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'authentication.apps.AuthenticationConfig',
     'users.apps.UsersConfig',
     'home.apps.HomeConfig',
+    'dashboard.apps.DashboardConfig',
     'aboutme.apps.AboutmeConfig',
 ]
 
