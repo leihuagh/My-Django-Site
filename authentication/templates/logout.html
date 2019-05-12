@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block head_title %}
+Logout
+{% endblock head_title %}
+
+{% block main_contents %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h2 class="text-capitalize">you have been logged out</h2>
+            <div class="border-top pt-3">
+                <small class="text-muted">
+                    <a href="{% url 'login' %}">Log In Again</a>
+                </small>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main_contents %}
