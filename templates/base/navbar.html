@@ -70,7 +70,7 @@
                 <a class="nav-link text-white" href="#">Good {% time_of_day %} {{ user.first_name }}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Dashboard</a>
+                <a class="nav-link" href="{% url 'dashboard:index' %}">Dashboard</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="myaccount" data-toggle="dropdown" aria-haspopup="true"
