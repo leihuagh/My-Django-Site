@@ -14,4 +14,11 @@
 
 .navbar {
     @include box-shadow(2);
+    .avatar {
+        width: rem(24px);
+        height: rem(24px);
+        vertical-align: middle;
+        border-radius: 50%;
+        @include box_shadow(2);
+    }
 }
