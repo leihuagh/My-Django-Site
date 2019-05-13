@@ -1,39 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
 #btnScrollToTop {
-  position: fixed;
-  right: 1rem;
-  bottom: 1rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 1.8rem;
-  background-color: #f00;
-  color: #fff;
-  font-weight: 900;
+  position: fixed !important;
+  right: 10px !important;
+  bottom: 10px !important;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   border: none;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: #e53935;
+  color: white;
   outline: none;
-  cursor: pointer;
+  padding-top: 5px;
   display: none;
 }
 
-#btnScrollToTop:active, #btnScrollToTop:focus {
-  background-color: #cc2333;
+#btnScrollToTop:active, #btnScrollToTop:hover {
+  background: #e57373;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fafafa;
+  background-color: #e1f5fe;
   color: #78909c;
 }
 
 .header {
-  font-size: rem(10px);
+  font-size: 0.75rem;
 }
 
 .header .logo {
@@ -55,11 +53,8 @@ body {
 }
 
 .navbar .avatar {
-  width: rem(24px);
-  height: rem(24px);
-  vertical-align: middle;
-  border-radius: 50%;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: none;
 }
 /*# sourceMappingURL=site.css.map */

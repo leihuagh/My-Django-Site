@@ -1,0 +1,23 @@
+#btnScrollToTop {
+    position: fixed !important;
+    right: 10px !important;
+    bottom: 10px !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
+    @include box_shadow (2);
+    background: material-color("red", "600");
+    color: white;
+    outline: none;
+    padding-top: 5px;
+    display: none;
+    &:active,
+    &:hover {
+        background: material-color("red", "300");
+    }
+}

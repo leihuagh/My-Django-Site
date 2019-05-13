@@ -1,4 +1,4 @@
 @import "functions";
 @mixin mt($size) {
-    margin-top: calculateRem($size);
+    margin-top: rem($size);
 }
