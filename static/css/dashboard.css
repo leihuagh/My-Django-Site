@@ -39,4 +39,15 @@ a, a:hover, a:focus {
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
 }
+
+.navbar {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.navbar .avatar {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: none;
+}
 /*# sourceMappingURL=dashboard.css.map */

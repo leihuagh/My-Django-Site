@@ -1,0 +1,7 @@
+.navbar {
+    @include box_shadow(2);
+    .avatar {
+        @include box_shadow(2);
+        border: none;
+    }
+}
