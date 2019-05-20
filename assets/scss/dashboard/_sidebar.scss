@@ -1,0 +1,83 @@
+.wrapper {
+    .sideMenu {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: rem($header-size) auto auto;
+        width: rem($sidebar-width);
+        transition: all ease $easeTime;
+        -webkit-transition: all ease $easeTime;
+        -moz-transition: all ease $easeTime;
+        -ms-transition: all ease $easeTime;
+        -o-transition: all ease $easeTime;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        z-index: 200;
+        .nav-link {
+            display: block;
+            white-space: nowrap;
+            .icon {
+                margin-right: rem(4px);
+                font-size: rem(30px);
+                vertical-align: middle;
+                height: rem(32px);
+                width: rem(32px);
+                color: $navbar_text_base;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .text {
+                font-size: rem(14px);
+                color: $navbar_text_base;
+            }
+            &:hover,
+            &.active {
+                background: material-color("blue-grey-dark", "200");
+                .icon,
+                .text {
+                    color: $navbar_text_base;
+                }
+            }
+        }
+    }
+    &.active {
+        .sideMenu {
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        .sideMenu {
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+        }
+        &.active {
+            .sideMenu {
+                width: rem($sidebar-width-small);
+                .nav-link {
+                    text-align: center;
+                    .icon {
+                        margin-right: 0;
+                    }
+                    .text {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

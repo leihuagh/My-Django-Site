@@ -17,5 +17,6 @@
     .avatar {
         @include box_shadow(2);
         border: none;
+        background: white;
     }
 }

@@ -1,24 +1,35 @@
 {% load static %}
-<nav class="navbar navbar-expand-lg navbar-dark bg-color-blue-grey-dark-200">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-color-blue-grey-dark-200 sticky-top">
     <button class="navbar-toggler sideMenuToggler" type="button">
         <span class="navbar-toggler-icon"></span>
     </button>
-
-    <a class="navbar-brand" href="#">Lei Hua</a>
+    <a class="navbar-brand" href="#">Mass Lottery</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ml-5">
+            <li class="nav-item active">
+                <button type="button"
+                    class="btn btn-sm d-flex align-items-center p-1 bg-color-blue-grey-600 text-white sideMenuToggler"
+                    id="switcher">
+                    <span class="material-icons">swap_horiz</span>
+                </button>
+            </li>
+        </ul>
         <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Front Home <span class="sr-only">(current)</span></a>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="myaccount" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
-                    <img src="{% static 'img/users/avatar.png'%}" alt="" class="rounded-circle avatar" width="26"
-                        height="26">
+                    <img src="{% static 'img/users/avatar.png' %}" width="26" height="26" class="rounded-circle avatar">
                 </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="myaccount">
+                <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="myaccount">
                     <a class="dropdown-item" href="#">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
                     <div class="dropdown-divider"></div>

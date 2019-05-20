@@ -1,8 +1,10 @@
+{% load static %}
+
 <!doctype html>
 <html>
 
 <head>
-    <title>Dashboard - {% block head_title %}Base{% endblock head_title %}</title>
+    <title>Dashboard Template - {% block head_title %}Base{% endblock head_title %}</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,11 +19,15 @@
     </button>
 
     {% include "dashboard/base/navbar.html" %}
-
-    <h1>Dashboard Base</h1>
-
-    {% block main_contents %}
-    {% endblock main_contents %}
+    <div class="wrapper d-flex">
+        {% include "dashboard/base/sidebar.html" %}
+        <div class="content">
+            <main>
+                {% block main_contents %}
+                {% endblock main_contents %}
+            </main>
+        </div>
+    </div>
 
     {% include "dashboard/base/js.html" %}
 </body>

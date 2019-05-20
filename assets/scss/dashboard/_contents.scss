@@ -1,0 +1,24 @@
+.wrapper {
+    .content {
+        width: 100%;
+        margin-left: rem(0px);
+        transition: all ease $easeTime;
+        -webkit-transition: all ease $easeTime;
+        -moz-transition: all ease $easeTime;
+        -ms-transition: all ease $easeTime;
+        -o-transition: all ease $easeTime;
+    }
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        .content {
+            margin-left: rem($sidebar-width);
+        }
+        &.active {
+            .content {
+                margin-left: rem($sidebar-width-small);
+            }
+        }
+    }
+}

@@ -11,8 +11,7 @@ django-admin startproject <project name>
 ```
 
 ### For Our Case
-
-- The project name will be fixed as `config`
+- The project name will be fixed as `config` 
 - User dot notation to indicate generating project under current directory
 
 ```shell
@@ -147,10 +146,10 @@ python manage.py test users/
 python manage.py collectstatic
 ```
 
-### Collect with Excluded Directories
+### Collect with Exclude Directories
 
 ```shell
-python manage.py collectstatic --noinput -i admin -i scss
+python manage.py collectstatic --noinput -i scss -i admin
 ```
 
 ## Access Python Shell
@@ -163,16 +162,4 @@ python manage.py shell
 
 ```shell
 python manage.py dbshell
-```
-
-## Pagination Variables
-
-```python
-<ul>
-    <li>{{ <app>.has_previous}}</li>
-    <li>{{ <app>.number }}</li>
-    <li>{{ <app>.paginator.count }}</li>
-    <li>{{ <app>.paginator.page_range }}</li>
-    <li>{{ <app>.has_next }}</li>
-</ul>
 ```
