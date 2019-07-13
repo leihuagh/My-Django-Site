@@ -4,7 +4,7 @@
 
 ## Packages in Global Environment
 
-- python 3.7.3
+- python 3.7.4
 - virtualenv 16.6.1
 - pylint
 - autopep8
@@ -12,7 +12,7 @@
 
 ## Packages in Virtual Environment
 
-- Django 2.2.2
+- Django 2.2.3
 - pillow
 - Faker
 - factory-boy
