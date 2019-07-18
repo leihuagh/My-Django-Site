@@ -5,7 +5,7 @@
 ## Packages in Global Environment
 
 - python 3.7.4
-- virtualenv 16.6.1
+- virtualenv 16.6.2
 - pylint
 - autopep8
 - flake8
