@@ -5,14 +5,14 @@
 ## Packages in Global Environment
 
 - python 3.7.4
-- virtualenv 16.6.2
+- virtualenv 16.7.2
 - pylint
 - autopep8
 - flake8
 
 ## Packages in Virtual Environment
 
-- Django 2.2.3
+- Django 2.2.4
 - pillow
 - Faker
 - factory-boy
